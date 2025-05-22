@@ -71,7 +71,7 @@ VITE_API_URL=your_api_url
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Navanish-Mehta/Portfolio-app/blob/main/LICENSE) file for details.
 
 ## 👨‍💻 Author
 
