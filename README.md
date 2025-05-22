@@ -76,7 +76,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 Your Name
-- GitHub:
+- GitHub:https://github.com/Navanish-Mehta
 - LinkedIn: www.linkedin.com/in/navanish-mehta-258825247
 
 ## 🙏 Acknowledgments
