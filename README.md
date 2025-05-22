@@ -27,7 +27,7 @@ A stunning, responsive portfolio website built with React and TypeScript, featur
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-github-username.github.io/portfolio-app)
+[View Live Demo](https://Navanish-Mehta.github.io/portfolio-app)
 
 ## 📦 Installation
 
