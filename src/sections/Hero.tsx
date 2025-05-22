@@ -7,6 +7,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 import { useTheme } from '../context/ThemeContext';
 import Projects from './Projects';
+import * as THREE from 'three';
 
 type ThemeProps = {
   theme: 'dark' | 'light';
@@ -245,7 +246,29 @@ const ModelContainer = styled.div`
 `;
 
 function PlanetModel(props: any) {
-  const { scene } = useGLTF('/models/planet/scene.gltf');
+  const { scene } = useGLTF('./models/planet/textures/scene.gltf');
+  // Fix texture paths for Vite/public
+  scene.traverse((object) => {
+    if (object.type === 'Mesh') {
+      const mesh = object as THREE.Mesh;
+      const material = mesh.material;
+      if (Array.isArray(material)) {
+        material.forEach(mat => {
+          const matAny = mat as any;
+          if (matAny.map && typeof matAny.map.image?.src === 'string' && !matAny.map.image.src.startsWith('http')) {
+            matAny.map.image.src = './models/planet/textures/textures/' + matAny.map.image.src.split('/').pop();
+            matAny.map.needsUpdate = true;
+          }
+        });
+      } else if (material) {
+        const materialAny = material as any;
+        if (materialAny.map && typeof materialAny.map.image?.src === 'string' && !materialAny.map.image.src.startsWith('http')) {
+          materialAny.map.image.src = './models/planet/textures/textures/' + materialAny.map.image.src.split('/').pop();
+          materialAny.map.needsUpdate = true;
+        }
+      }
+    }
+  });
   return <primitive object={scene} {...props} />;
 }
 
@@ -325,4 +348,4 @@ const Hero = () => {
 
 export default Hero;
 
-useGLTF.preload('/models/planet/scene.gltf'); 
+useGLTF.preload('./models/planet/textures/scene.gltf'); 

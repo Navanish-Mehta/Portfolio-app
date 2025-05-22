@@ -270,7 +270,7 @@ const Projects = () => {
     {
       title: 'E-Commerce Platform',
       description: 'A full-stack e-commerce platform with real-time inventory management and secure payment processing.',
-      image: '/images/projects/ecommerce.png',
+      image: './images/projects/ecommerce.png',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
       github: 'https://github.com/yourusername/ecommerce',
       live: 'https://ecommerce-demo.com'
@@ -278,7 +278,7 @@ const Projects = () => {
     {
       title: 'Travel Itinerary Application',
       description: 'A responsive travel planner that allows users to create, manage, and customize their trip itineraries with an interactive dashboard and user-friendly design.',
-      image: '/images/projects/Screenshot (250).png',
+      image: './images/projects/travel.png',
       technologies: ['React', 'Tailwind CSS', 'JavaScript'],
       github: 'https://github.com/yourusername/analytics-dashboard',
       live: 'https://analytics-demo.com'
@@ -286,7 +286,7 @@ const Projects = () => {
     {
       title: 'Shifra Personal Assistant',
       description: 'A smart web-based personal assistant interface that helps users manage tasks, access quick information, and interact through a sleek and responsive UI.',
-      image: '/images/projects/Screenshot (251).png',
+      image: './images/projects/shifra.png',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
       github: 'https://github.com/yourusername/social-platform',
       live: 'https://social-demo.com'
