@@ -27,7 +27,7 @@ A stunning, responsive portfolio website built with React and TypeScript, featur
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-github-username.github.io/portfolio-app)
+[View Live Demo](https://navanish-mehta.github.io/Portfolio-app/)
 
 ## 📦 Installation
 
@@ -71,13 +71,13 @@ VITE_API_URL=your_api_url
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Navanish-Mehta/Portfolio-app/blob/main/LICENSE) file for details.
 
 ## 👨‍💻 Author
 
 Your Name
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
+- GitHub:https://github.com/Navanish-Mehta
+- LinkedIn: www.linkedin.com/in/navanish-mehta-258825247
 
 ## 🙏 Acknowledgments
 
