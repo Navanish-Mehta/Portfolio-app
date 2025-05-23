@@ -9,6 +9,7 @@ import Education from './sections/Education';
 import Projects from './sections/Projects';
 import Contact from './sections/Contact';
 import Skills from './sections/Skills';
+import HireMeButton from './components/HireMeButton';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ErrorBoundary from './components/ErrorBoundary';
@@ -34,6 +35,7 @@ const AppContent = () => {
       <Projects />
       <About />
       <Contact />
+      <HireMeButton />
     </AppContainer>
   );
 };
