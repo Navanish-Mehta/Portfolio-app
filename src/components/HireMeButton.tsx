@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { motion, useAnimation } from 'framer-motion';
 import { useTheme } from '../context/ThemeContext';
-import { FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa6';
 
 const ButtonContainer = styled(motion.div)`
   position: fixed;
@@ -90,6 +90,8 @@ const IconWrapper = styled(motion.div)`
   }
 `;
 
+const EnvelopeIcon = FaEnvelope as React.ElementType;
+
 const HireMeButton = () => {
   const { theme } = useTheme();
   const [isVisible, setIsVisible] = useState(false);
@@ -131,7 +133,7 @@ const HireMeButton = () => {
         onHoverEnd={() => controls.start({ scale: 1 })}
       >
         <IconWrapper>
-          <FaEnvelope />
+          <EnvelopeIcon />
         </IconWrapper>
         <ButtonText>
           Hire Me

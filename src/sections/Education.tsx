@@ -146,8 +146,7 @@ const Education = () => {
       date: '2019-2021',
       title: 'Intermediate',
       subtitle: 'M.S College,Motihari',
-      description: 'Completed Intermediate (12th) with 88% under the Bihar School Examination Board (BSEB), Patna.
-Built a solid foundation in Physics, Chemistry, and Mathematics, consistently performing well in core subjects. This academic phase further strengthened my analytical and problem-solving skills, preparing me for a career in engineering and technology.'
+      description: 'Completed Intermediate (12th) with 88% under the Bihar School Examination Board (BSEB), Patna. Built a solid foundation in Physics, Chemistry, and Mathematics, consistently performing well in core subjects. This academic phase further strengthened my analytical and problem-solving skills, preparing me for a career in engineering and technology.'
     },
     {
       date: '2022-2026',
