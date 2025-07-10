@@ -280,7 +280,7 @@ const Projects = () => {
       description: 'A responsive travel planner that allows users to create, manage, and customize their trip itineraries with an interactive dashboard and user-friendly design.',
       image: './images/projects/travel.png',
       technologies: ['React', 'Tailwind CSS', 'JavaScript'],
-      github: 'https://github.com/yourusername/analytics-dashboard',
+      github: 'https://github.com/Navanish-Mehta/travel-itinerary-app',
       live: 'https://analytics-demo.com'
     },
     {
@@ -288,7 +288,7 @@ const Projects = () => {
       description: 'A smart web-based personal assistant interface that helps users manage tasks, access quick information, and interact through a sleek and responsive UI.',
       image: './images/projects/shifra.png',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
-      github: 'https://github.com/yourusername/social-platform',
+      github: 'https://github.com/Navanish-Mehta/Mystichat-App',
       live: 'https://social-demo.com'
     }
   ];
