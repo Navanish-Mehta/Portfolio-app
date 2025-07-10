@@ -146,7 +146,8 @@ const Education = () => {
       date: '2019-2021',
       title: 'Intermediate',
       subtitle: 'M.S College,Motihari',
-      description: 'Completed matriculation with 91% under the CBSE board. Ranked among the top performers in my district, with my achievement featured in a local newspaper. Built a strong foundation in Mathematics, Science, and English.'
+      description: 'Completed Intermediate (12th) with 88% under the Bihar School Examination Board (BSEB), Patna.
+Built a solid foundation in Physics, Chemistry, and Mathematics, consistently performing well in core subjects. This academic phase further strengthened my analytical and problem-solving skills, preparing me for a career in engineering and technology.'
     },
     {
       date: '2022-2026',
