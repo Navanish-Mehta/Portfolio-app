@@ -273,7 +273,7 @@ const Projects = () => {
       image: './images/projects/Taskwave.png',
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io', 'JWT'],
       github: 'https://github.com/navanish-mehta/Taskwave',
-      live: 'hhttps://task-wave-xi.vercel.app/'
+      live: 'https://task-wave-xi.vercel.app/'
     },
     {
       title: 'Travel Itinerary Application',
