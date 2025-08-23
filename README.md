@@ -77,7 +77,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 Your Name
 - GitHub:https://github.com/Navanish-Mehta
-- LinkedIn: www.linkedin.com/in/navanish-mehta-258825247
+- LinkedIn: www.linkedin.com/in/navanish-mehta
 
 ## 🙏 Acknowledgments
 
