@@ -389,7 +389,7 @@ const About = () => {
               transition={{ duration: 0.5 }}
               whileHover={{ y: -5 }}
             >
-              <img src="https://media.licdn.com/dms/image/v2/D4D03AQEIAvlgiUvo9g/profile-displayphoto-shrink_800_800/B4DZWJHsY7HIAg-/0/1741762251320?e=1753315200&v=beta&t=BnWjaSRtqb_9tGt65LEywkl5PtlENQEVmftXw5slhHI" alt="Profile" />
+              <img src="https://media.licdn.com/dms/image/v2/D4D03AQEIAvlgiUvo9g/profile-displayphoto-shrink_800_800/B4DZWJHsY7HIAg-/0/1741762251320?e=1758758400&v=beta&t=9hiS6xGkgKYDWIU_ILnq52drSU_02QKq5jYLcat0qLE" alt="Profile" />
             </ProfileImage>
             <TextContent>
               <Description
